@@ -1,0 +1,63 @@
+header{
+    background-color: #6495ED;
+    padding: 10px;
+}
+
+header ul {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 550px;
+    display: flex;
+    font-size: 16px;
+    overflow-y: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+header ul li{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+header ul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 550px;
+    height: auto;
+    gap: 1.5rem;
+}
+
+form label{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+form button{
+    margin-bottom: 1rem;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #6495ED;
+    background-color: #6495ED;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
